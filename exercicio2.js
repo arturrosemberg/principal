@@ -9,10 +9,10 @@ var temp;
 for(k=0;k<2;k++){
 	for(i=0;i<3;i++){
 		if(valor[i] > valor[i+1]){
-			temp = valor[i];
+		temp = valor[i];
         	valor[i]=valor[i+1];
         	valor[i+1] = temp;
-        }
+		}
 	}    
 }
 
